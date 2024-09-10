@@ -1,5 +1,13 @@
 <img src="assets/magicleap.png" width="240">
 
+# installation
+
+conda create --name superpoint python=3.10
+conda activate superpoint
+
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+python -m pip install geffnet
+
 ### Research @ Magic Leap
 
 # SuperPoint Weights File and Demo Script
